@@ -62,7 +62,6 @@ jobs:
       matrix:
         php-version:
           - "8.4"
-          - "8.5"
         oracle-version:
           - "21"
           - "23"
@@ -216,7 +215,6 @@ jobs:
         php-version:
           - "7.4"
           - "8.4"
-          - "8.5"
 
   development-deps:
     name: "PHPUnit with PDO_SQLite and development dependencies"
